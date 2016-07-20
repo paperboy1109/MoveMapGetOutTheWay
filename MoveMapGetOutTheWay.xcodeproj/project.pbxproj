@@ -12,6 +12,7 @@
 		4E3D3E141D40170F007C4B6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E3D3E121D40170F007C4B6C /* Main.storyboard */; };
 		4E3D3E161D40170F007C4B6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E3D3E151D40170F007C4B6C /* Assets.xcassets */; };
 		4E3D3E191D40170F007C4B6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E3D3E171D40170F007C4B6C /* LaunchScreen.storyboard */; };
+		4E3D3E221D40182E007C4B6C /* MoveMapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3D3E211D40182E007C4B6C /* MoveMapVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		4E3D3E151D40170F007C4B6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E3D3E181D40170F007C4B6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4E3D3E1A1D40170F007C4B6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E3D3E211D40182E007C4B6C /* MoveMapVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoveMapVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		4E3D3E0D1D40170F007C4B6C /* MoveMapGetOutTheWay */ = {
 			isa = PBXGroup;
 			children = (
+				4E3D3E201D401811007C4B6C /* Controller */,
 				4E3D3E0E1D40170F007C4B6C /* AppDelegate.swift */,
 				4E3D3E101D40170F007C4B6C /* ViewController.swift */,
 				4E3D3E121D40170F007C4B6C /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				4E3D3E1A1D40170F007C4B6C /* Info.plist */,
 			);
 			path = MoveMapGetOutTheWay;
+			sourceTree = "<group>";
+		};
+		4E3D3E201D401811007C4B6C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4E3D3E211D40182E007C4B6C /* MoveMapVC.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E3D3E221D40182E007C4B6C /* MoveMapVC.swift in Sources */,
 				4E3D3E111D40170F007C4B6C /* ViewController.swift in Sources */,
 				4E3D3E0F1D40170F007C4B6C /* AppDelegate.swift in Sources */,
 			);
